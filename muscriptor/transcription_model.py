@@ -71,7 +71,7 @@ def _timed(label: str, store: list[tuple[str, float]] | None = None):
 # Published model variants live at hf://MuScriptor/muscriptor-<size>. A bare
 # size keyword ("small"/"medium"/"large") resolves to the matching repo; the
 # architecture is then read from that repo's config.json (see _resolve_config).
-_HF_REPO_TEMPLATE = "hf://MuScriptor/muscriptor-{size}/model.safetensors"
+_HF_REPO_TEMPLATE = "hf://sonic-coder/muscriptor-{size}/model.safetensors"
 _MODEL_SIZES = ("small", "medium", "large")
 _DEFAULT_SIZE = "medium"
 
