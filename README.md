@@ -19,28 +19,6 @@ You can use the model [here](https://muscriptor.kyutai.org) or self-host it usin
 </p>
 -->
 
-## HuggingFace login (required)
-
-To use MuScriptor locally, you first need to log into [HuggingFace](https://huggingface.co/MuScriptor)
-and accept the CC BY-NC 4.0 license.
-
-1. Accept the model license on the model page for the [small](https://huggingface.co/MuScriptor/muscriptor-small),
-   [medium](https://huggingface.co/MuScriptor/muscriptor-medium) or [large](https://huggingface.co/MuScriptor/muscriptor-large) model
-   (access is granted automatically).
-2. Authenticate on your machine:
-
-   ```bash
-   uvx hf auth login
-   ```
-
-   or set a token (create one at
-   [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)):
-
-   ```bash
-   export HF_TOKEN=hf_...
-   ```
-
-The weights are then automatically downloaded on first use and cached locally.
 
 ## Try it locally
 
